@@ -7,6 +7,7 @@ function countingDuplicates(str) {
     occurrence[char] = occurrence[char] + 1 || 1;
     if (occurrence[char] === 2) res++;
   });
+
   return res;
 }
 
